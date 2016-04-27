@@ -1,0 +1,260 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	background-color: #FFFFFF;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+.well  {
+	margin-top: 0;
+	background-color:rgb(198, 239, 101);
+}
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+input[type="text"],[type="date"],[type="number"]{
+	background-color: #FFE4B5;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:   black;
+
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	background-color: white;
+	color: #C18EB6;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+
+.navbar-brand {
+	padding: 13px 15px;
+}
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel {
+	margin-top: 60px;
+}
+
+.carousel-caption {
+	font-size: 24px;
+}
+
+.carousel-caption h4 {
+	font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+	background: url('../../images/IMG_2545.JPG') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/instituteprofile.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/6c9b0f9d9ca57f9cfe15539a0b87a0c8.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+.thumbnail .price {
+	font-size: 22px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	padding: 10px;
+}
+
+.thumbnail .price sup {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.thumbnail span.glyphicon {
+	margin-right: 5px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+	.thumbnail .price {
+		font-size: 14px;
+	}
+	
+	.thumbnail .price sup {
+		font-size: 10px;
+	}
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+	background: url('../../images/IMG_2545.JPG') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../../images/instituteprofile.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../../images/6c9b0f9d9ca57f9cfe15539a0b87a0c8.jpg') top center no-repeat;
+}
+
+	
+	.carousel-caption {
+		font-size: 16px;
+	}
+	
+	.carousel-caption h4 {
+		font-size: 22px;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+	
+	#slide1 {
+	background: url('C:/Users/Manju/Desktop/mywebsite/03 - Sans Photoshop/images/IMG_2545.JPG') top center no-repeat;
+}
+
+#slide2 {
+	background: url('C:/Users/Manju/Desktop/mywebsite/03 - Sans Photoshop/images/004.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('C:/Users/Manju/Desktop/mywebsite/03 - Sans Photoshop/images/001.jpg') top center no-repeat;
+}
+
+
+}
+
+
+/*login tab styles */
+.bt-login,.bt-login:hover, .bt-login:active, .bt-login:focus {
+    background-color: #ff8627;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    transition: background-color 300ms linear 0s;
+}
+
+footer
+{
+background-color:black;
+}
+.login-tab {
+	margin: 0 auto;
+	max-width: 380px;
+}
+
+.login-modal-header {
+	background: #27ae60;
+	color: #fff;
+}
+
+.login-modal-header .modal-title {
+	color: #fff;
+}
+
+.login-modal-header .close {
+	color: #fff;
+}
+
+.login-modal form {
+	max-width: 340px;
+}
+
+.tab-pane form {
+	margin: 0 auto;
+}
+.login-modal-footer{
+	margin-top:15px;
+	margin-bottom:15px;
+
+} 
